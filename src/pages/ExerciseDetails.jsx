@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import ExerciseDetailContext from "../components/exercises/ExerciseDetailContext";
+import ExerciseDetailContent from "../components/exercises/ExerciseDetailContent";
 import { Data, exerciseOptions } from "../utils/ExerciseData";
 
 
@@ -24,7 +24,7 @@ const ExerciseDetails = () => {
 
   return (
     <div>
-      <ExerciseDetailContext exerciseDetails={exerciseDetails} />
+      <ExerciseDetailContent exerciseDetails={exerciseDetails} />
     </div>
   )
 }

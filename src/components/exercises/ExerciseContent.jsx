@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Data, exerciseOptions } from "../../utils/ExerciseData";
-import ExerciseCard from "../../components/exercises/ExerciseCard";
+import ExerciseCard from "./ExerciseCard";
 import Loader from "../Loader";
 
 const ExerciseContext = ({ exercises, setExercises, bodyPart }) => {

@@ -1,3 +1,6 @@
+import gymSvg from '../../../assets/icons/gym.svg'
+
+
 const BodyPart = ({ item, setBodyPart,bodyPart }) => (
     <button
         type="button"
@@ -7,7 +10,7 @@ const BodyPart = ({ item, setBodyPart,bodyPart }) => (
             window.scrollTo({ top: 1800, left: 100, behavior: 'smooth' });
         }}
     >
-        <img src='./assets/images/gym.svg' alt="dumbbell" style={{ width: '80px', height: '80px' }} />
+        <img src={gymSvg} alt="gym" style={{ width: '80px', height: '80px' }} />
         <h3>{(item).toUpperCase()}</h3>
     </button>
 );

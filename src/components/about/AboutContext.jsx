@@ -1,4 +1,6 @@
 import { MdFitnessCenter } from "react-icons/md";
+import aboutContentImg1 from '../../../assets/images/aboutContentImg1.png'
+import subtitleImg from '../../../assets/icons/subtitle.svg'
 
 const AboutContext = () => {
     return (
@@ -6,12 +8,12 @@ const AboutContext = () => {
             <div className="flex gap-x-10 justify-center mt-20">
               <div className="relative">
                     <div className=" before:border-2  absolute top-0 left-[-20px]  before:border-green-500"></div>
-                    <img className="w-[450px] h-[500px] object-left" src="./assets/images/aboutContentImg1.png" alt="" />
+                    <img className="w-[450px] h-[500px] object-left" src={aboutContentImg1} alt="aboutcontent" />
                     <div className=" before:border-2 absolute bottom-0 right-[-20px] before:border-green-500"></div>
               </div>
                 <div className="w-[500px]">
                     <div className="relative w-[208px]">
-                        <img src="./assets/icons/subtitle.svg" className="relative" alt="" />
+                        <img src={subtitleImg} className="relative" alt="" />
                         <span className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white">Üstünlüklerimiz</span>
                     </div>
                     <h3 className="mt-4 font-semibold text-[18px] flex gap-x-2">
