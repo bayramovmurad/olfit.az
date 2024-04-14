@@ -1,0 +1,23 @@
+.banner {
+    background-image: url('./assets/images/exerciseBanner.png');
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg_shadow {
+    width: 100%;
+    height: 50vh;
+    background: rgba(0, 0, 0, .7);
+}
+
+.swiper-button-prev:after {
+    color: green !important;
+    font-size: 30px !important;
+}
+
+.swiper-button-next:after {
+    color: green !important;
+    font-size: 30px !important;
+}
