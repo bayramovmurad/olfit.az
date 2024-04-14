@@ -5,7 +5,7 @@ import { MdDarkMode } from "react-icons/md";
 
 const Navbar = () => {
     return (
-        <nav className="flex items-center w-full justify-between p-5 text-white bg-black bg-opacity-50 fixed">
+        <nav className="flex items-center w-full justify-between p-5 text-white bg-black bg-opacity-50 fixed z-50">
 
             <Link className="flex" to="/">
                 <img src="./assets/images/logo.png" width={20} height={20} alt="" />
