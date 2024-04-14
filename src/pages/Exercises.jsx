@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ExercisesInput from "../components/exercises/ExercisesInput"
 import ExerciseBanner from "../components/exercises/ExerciseBanner";
-import ExerciseContext from "../components/exercises/ExerciseContext";
+import ExerciseContent from "../components/exercises/ExerciseContent";
 
 const Exercises = () => {
   const [exercises, setExercises] = useState([]);
@@ -10,7 +10,7 @@ const Exercises = () => {
     <div>
       <ExerciseBanner/>
       <ExercisesInput setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart}/>
-      <ExerciseContext exercises={exercises} setExercises={setExercises} bodyPart={bodyPart}/>
+      <ExerciseContent exercises={exercises} setExercises={setExercises} bodyPart={bodyPart}/>
     </div>
   )
 }

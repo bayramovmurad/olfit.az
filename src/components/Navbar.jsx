@@ -2,13 +2,14 @@ import { Link } from "react-router-dom"
 import { FaShoppingCart } from "react-icons/fa";
 import { MdDarkMode } from "react-icons/md";
 // import { CiLight } from "react-icons/ci";
+import logoImg from '../../assets/images/logo.png'
 
 const Navbar = () => {
     return (
         <nav className="flex items-center w-full justify-between p-5 text-white bg-black bg-opacity-50 fixed z-50">
 
             <Link className="flex" to="/">
-                <img src="./assets/images/logo.png" width={20} height={20} alt="" />
+                <img src={logoImg} width={20} height={20} alt="logo" />
                 <h1 className="font-bold text-2xl">OLFIT</h1>
             </Link>
 
